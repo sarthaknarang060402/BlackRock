@@ -1,0 +1,14 @@
+.navbar{
+    background-color: black;
+}
+.banner{
+    position: relative;
+    display:block;
+    width: 100%;
+}
+.mutual{
+    text-align: center;
+    text-justify: auto;
+    padding:20px 20px;
+    display: inline;
+}
