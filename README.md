@@ -4,6 +4,14 @@ This project is built using Python, Flask, HTMl, CSS, Javascript, and Natural La
 
 ## Demonstration 
 <img width="900" alt="chatbot" src="Screenshots/1.png">
+<img width="900" alt="chatbot" src="Screenshots/2.png">
+<img width="900" alt="chatbot" src="Screenshots/3.png">
+<img width="900" alt="chatbot" src="Screenshots/4.png">
+<img width="900" alt="chatbot" src="Screenshots/5.png">
+<img width="900" alt="chatbot" src="Screenshots/6.png">
+<img width="900" alt="chatbot" src="Screenshots/7.png">
+<img width="900" alt="chatbot" src="Screenshots/8.png">
+
 
 
 ### Initial Setup:
