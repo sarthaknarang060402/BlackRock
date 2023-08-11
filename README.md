@@ -1,6 +1,12 @@
 # BlackRock HackKnight 2023
 
-This project is built using Python, Flask, HTMl, CSS, Javascript, and Natural Language Processing (NLTK). It includes some basic neural networks for processing updated data (.json format) to train the chatbot to update its responses. 
+This project is built using Python, Flask, HTMl, CSS, Javascript, and Natural Language Processing (NLTK).
+## Features:
+1. ChatBot.
+2. StoryTelling.
+3. CashFlow Game.
+4. Information.
+
 
 ## Demonstration 
 <img width="900" alt="chatbot" src="Screenshots/1.png">
