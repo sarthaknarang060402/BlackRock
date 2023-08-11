@@ -3,14 +3,8 @@
 This project is built using Python, Flask, HTMl, CSS, Javascript, and Natural Language Processing (NLTK). It includes some basic neural networks for processing updated data (.json format) to train the chatbot to update its responses. 
 
 ## Demonstration 
-<img width="720" alt="chatbot" src="Screenshots/1.png">
-<img width="269" alt="chatbot" src="https://user-images.githubusercontent.com/54012492/162278849-674ff635-2511-4312-a920-3061ee0d47f3.png">
-<img width="269" alt="chatbot" src="https://user-images.githubusercontent.com/54012492/162278849-674ff635-2511-4312-a920-3061ee0d47f3.png">
-<img width="269" alt="chatbot" src="https://user-images.githubusercontent.com/54012492/162278849-674ff635-2511-4312-a920-3061ee0d47f3.png">
-<img width="269" alt="chatbot" src="https://user-images.githubusercontent.com/54012492/162278849-674ff635-2511-4312-a920-3061ee0d47f3.png">
-<img width="269" alt="chatbot" src="https://user-images.githubusercontent.com/54012492/162278849-674ff635-2511-4312-a920-3061ee0d47f3.png">
-<img width="269" alt="chatbot" src="https://user-images.githubusercontent.com/54012492/162278849-674ff635-2511-4312-a920-3061ee0d47f3.png">
-<img width="269" alt="chatbot" src="https://user-images.githubusercontent.com/54012492/162278849-674ff635-2511-4312-a920-3061ee0d47f3.png">
+<img width="900" alt="chatbot" src="Screenshots/1.png">
+
 
 ### Initial Setup:
 
