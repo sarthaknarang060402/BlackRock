@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Ubuntu&display=swap"
+    rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- DevIcons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='singlePageStyle.css') }}"> 
+</head>
+<body>
+    <section class="content">
+        <div class="row justify-content-center">
+
+            <div class="col-lg-4 col-md-6 col-sm-12 col-12 py-3">
+              <div class="project__item comp border rounded">
+                <br>
+                <div class="project__item-about">
+                  <div class="text-center">
+                    <h3>Cashflow 101</h3>
+                  </div>
+                  <div class="project__item-about-content">
+                    <p>Cashflow 101, commonly referred to as the Cashflow Game, is a board game created by Robert Kiyosaki, the author of the best-selling personal finance book "Rich Dad Poor Dad." The game was designed as an educational tool to help players learn and understand the fundamental principles of financial literacy and investing.</p>
+                    <br>
+                    <br>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 col-12 py-3">
+              <div class="project__item comp  rounded">
+                <div class="project__item-img">
+                  <img class="education-logo" src="{{ url_for('static', filename='images/game.png') }}" alt="" />
+                </div>
+              </div>
+            </div>
+
+        </div>
+
+        <br>
+        
+        <div class="row justify-content-center">  
+
+          <div class="col-lg-8 col-md-6 col-sm-12 col-12 py-3">
+              <div class="project__item comp border rounded">
+                <br>
+                <div class="project__item">
+                  <div class="text-center">
+                    <h3>Considerations for Beginners:</h3>
+                  </div>
+                  <div class="text-start project__item">
+                    <p><br>
+                      
+                      <br>
+                      Key concepts and lessons taught by the Cashflow Game include:
+                      <br>
+                      <b>Assets vs. Liabilities:</b> Players learn the difference between assets (items that put money in your pocket) and liabilities (items that take money out of your pocket) and the importance of acquiring income-generating assets.
+                      <br>
+                      <b>Cash Flow Management:</b> The game emphasizes the significance of positive cash flow by tracking income and expenses. Players learn how to make wise financial decisions that contribute to increased cash flow.
+                      <br>
+                      <b></b>Risk Management: Participants are exposed to various investment opportunities and learn to evaluate and manage risks associated with different investments.
+                      <br>
+                      <b>Passive Income:</b> The game highlights the value of generating passive income through investments and businesses, which allows players to achieve financial independence.
+                      <br>
+                      <b>Mindset Shift:</b> Players are encouraged to adopt a "rich mindset" that focuses on leveraging opportunities, making informed financial choices, and thinking creatively.
+                      <br>
+                      <b>Financial Awareness:</b> The game promotes awareness of financial statements, such as the balance sheet and income statement, helping players understand the financial health of their ventures.
+                      <br>
+                      The Cashflow Game has gained popularity as an engaging and interactive way to teach financial concepts to individuals of all ages. It encourages players to think critically about their financial decisions and long-term goals, fostering a greater understanding of how money works and how to create a path towards financial freedom.
+                      </p>
+                    <br>
+                    <br>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+      </div>
+    </section>
+</body>
+</html>

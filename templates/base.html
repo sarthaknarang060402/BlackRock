@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackRock</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Ubuntu&display=swap"
+    rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"> 
+    <!-- Styles -->
+    <!-- <link rel="stylesheet" href="../css/styles.css"> -->
+</head>
+<body>
+<div class="hi">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="">
+          <a class="navbar-brand" href="#">Financial Literacy</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/pages/Mutual">M.F.</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/pages/sip">S.I.P</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/pages/game">Game</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div>
+        <img class="banner img-fluid" src="{{ url_for('static', filename='images/banner.png') }}" alt="">
+      </div>
+
+      <!-- section -->
+      <section class="mutual" id="about">
+
+        <div class="row justify-content-center">
+          <div class="col-lg-3 col-md-6 col-sm-12 col-12 py-3">
+            <div class="project__item comp border rounded">
+              <div class="project__item-img">
+                <img class="education-logo" src="" alt="" />
+              </div>
+              <div class="project__item-about">
+                <div class="text-center">
+                  <h3>What is a Mutual Fund?</h3>
+                </div>
+                <div class="project__item-about-content">
+                  <p>A mutual fund is a pool of money collected from many investors to invest in a variety of securities, such as stocks, bonds, or other assets. It's managed by professional fund managers who make investment decisions on behalf of the investors. Want to Learn More?</p>
+                  
+                </div>
+                <div class="project__item-links">
+                  <div class="project__item-links-item live m-2 text-center rounded p-1">
+                    <a href="/pages/Mutual" target="_blank" rel="noreferrer" aria-label="Live Deployment"
+                      class="text-decoration-none">Learn More <i class="fas fa-external-link-alt"></i></a>
+                  </div>
+                  <div class="project__item-links-item code m-2 text-center rounded p-1">
+                    <a href="/pages/MutualStory" target="_blank" rel="noreferrer" aria-label="Source Code"
+                      class="text-decoration-none">Story: Funds Unite: The Mutual Magic <i class="fas fa-external-link-alt"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 col-12 py-3">
+            <div class="project__item comp border rounded">
+              <div class="project__item-img">
+                <img class="education-logo" src="images/paint.png" alt="" />
+              </div>
+              <div class="project__item-about">
+                <div class="text-center">
+                  <h3>What is SIP?</h3>
+                </div>
+                <div class="project__item-about-content">
+                  <p>A Systematic Investment Plan (SIP) is an investment strategy in which you invest a fixed amount of money at regular intervals (usually monthly) into a mutual fund or an exchange-traded fund (ETF). SIP is a way to invest consistently over time, regardless of market conditions.</p>
+                  
+                </div>
+                <div class="project__item-links">
+                  <div class="project__item-links-item live m-2 text-center rounded p-1">
+                    <a href="/pages/sip" target="_blank" rel="noreferrer" aria-label="Live Deployment"
+                      class="text-decoration-none">Learn More <i class="fas fa-external-link-alt"></i></a>
+                  </div>
+                  <div class="project__item-links-item code m-2 text-center rounded p-1">
+                    <a href="/pages/SipStory" target="_blank" rel="noreferrer" aria-label="Source Code"
+                      class="text-decoration-none">Story: The Coin Cascade: SIP Saga <i class="fas fa-external-link-alt"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 col-12 py-3">
+            <div class="project__item comp border rounded">
+              <div class="project__item-img">
+                <img class="education-logo" src="images/paint.png" alt="" />
+              </div>
+              <div class="project__item-about">
+                <div class="text-center">
+                  <h3>CashFlow Game</h3>
+                </div>
+                <div class="project__item-about-content">
+                  <p>The Cashflow Game is intended to simulate real-life financial situations and decisions that individuals encounter in their pursuit of financial independence. Players take on the roles of employees, self-employed individuals, business owners, and investors as they move around the game board.</p>
+                  
+                </div>
+                <div class="project__item-links">
+                  <div class="project__item-links-item live m-2 text-center rounded p-1">
+                    <a href="/pages/game" target="_blank" rel="noreferrer" aria-label="Live Deployment"
+                      class="text-decoration-none">Learn More <i class="fas fa-external-link-alt"></i></a>
+                  </div>
+                  <div class="project__item-links-item code m-2 text-center rounded p-1">
+                    <a href="/pages/CashFlowJs" target="_blank" rel="noreferrer" aria-label="Source Code"
+                      class="text-decoration-none">Play: Cash Flow 101! <i class="fas fa-external-link-alt"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+         
+      </section>
+    <div class="chatbox">
+        <div class="chatbox__support">
+            <div class="chatbox__header">
+                <div class="chatbox__image--header">
+                    <img src="https://img.icons8.com/color/48/000000/circled-user-female-skin-type-5--v1.png" alt="image">
+                </div>
+                <div class="chatbox__content--header">
+                    <h4 class="chatbox__heading--header">Homer the Chatbot</h4>
+                    <p class="chatbox__description--header">Hi. How can I help you?</p>
+                </div>
+            </div>
+            <div class="chatbox__messages">
+                <div></div>
+            </div>
+            <div class="chatbox__footer">
+                <input type="text" placeholder="Write a message...">
+                <button class="chatbox__send--footer send__button">Send</button>
+            </div>
+        </div>
+        <div class="chatbox__button">
+            <button><img src="{{ url_for('static', filename='images/chatbox-icon.svg') }}" /></button>
+        </div>
+    </div>
+</div>
+
+    <script>
+        $SCRIPT_ROOT = {{ request.script_root|tojson }};
+    </script>
+    <script type="text/javascript" src="{{ url_for('static', filename='app.js') }}"></script>
+
+</body>
+</html>
