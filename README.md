@@ -1,4 +1,4 @@
-# BlackRock HackKnight 2023
+# BlackRock HackKnight 2023 - Theme 1 - Financial Literacy App
 
 This project is built using Python, Flask, HTMl, CSS, Javascript, and Natural Language Processing (NLTK).
 ## Features:
